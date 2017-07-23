@@ -1,0 +1,11 @@
+notebook:
+  build: .
+  user: root
+  ports:
+    - 8888:8888
+  environment:
+    - GRANT_SUDO=yes
+  volumes:
+    - .:/home/jovyan
+  
+
