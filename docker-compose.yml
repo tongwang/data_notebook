@@ -5,7 +5,6 @@ notebook:
     - 8888:8888
   environment:
     - GRANT_SUDO=yes
-    - SPARK_HOME=/opt/spark
   volumes:
     - .:/home/jovyan
   

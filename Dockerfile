@@ -35,3 +35,6 @@ RUN echo 'deb http://ftp.de.debian.org/debian jessie-backports main' >> /etc/apt
 RUN pip install findspark
 
 RUN apt-get install -y less parallel
+
+# Spark config
+ENV SPARK_HOME /opt/spark
